@@ -76,7 +76,7 @@ PREV_NAME_PRODUCT_TYPE_walk_in_MEAN = st.sidebar.slider("PREV_NAME_PRODUCT_TYPE_
 btn_predict = st.sidebar.button("Predict")
 
 if btn_predict: 
-    url = "http://127.0.0.1:8000/predict"
+    url = "https://formation-ocr-p7.herokuapp.com/predict"
     
     payload = {
         'CODE_GENDER': CODE_GENDER,
