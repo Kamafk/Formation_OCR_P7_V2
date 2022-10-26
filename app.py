@@ -8,13 +8,9 @@ Created on Tue Nov 17 21:40:41 2020
 # 1. Importation des librairies
 import uvicorn
 from fastapi import FastAPI
-from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 import pickle
-import numpy as np
-import pandas as pd
-import shap
-import matplotlib.pyplot as plt
+
 
 
 # 2. Création de l'objet app
