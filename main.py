@@ -141,9 +141,9 @@ if btn_predict:
     
     st.subheader('Interpretation:')      
     st.write(""" In this chart blue and red mean the feature value, blue is a smaller value and red is a higher value.
-              \n The width of the bars represents the number of observations on a certain feature value, for example with the INSTALL_DPD_Mean feature we can see that most of the applicants are within the blue area.
+              \n The width of the bars represents the number of observations on a certain feature value, for example with the APPROVED_AMT_DOWN_PAYMENT_Max feature we can see that most of the applicants are within the blue area.
               \n On axis x negative SHAP values on the left side represent applicants likely to pay the loan back and the positive values on the right side represent applicants that are likely to churn.
-              \n What we are learning from this chart is that features such as EXT_Source_3 and EXT_Source_2 are the most impactful features driving the outcome prediction. The higher the EXT_Source is, the more likely the applicant to pay the loan back and vice versa.
+              \n What we are learning from this chart is that features such as EXT_SOURCE are the most impactful features driving the outcome prediction. The higher the EXT_Source is, the more likely the applicant to pay the loan back and vice versa.
              """)
   
 ######################
