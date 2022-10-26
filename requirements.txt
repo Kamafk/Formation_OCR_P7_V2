@@ -1,12 +1,10 @@
-streamlit == 1.13.0
-ipython == 8.4.0
-scikit-learn == 1.1.2
-xgboost == 1.6.1
-fastapi == 0.85.0
-pydantic == 1.9.2
-uvicorn == 0.18.3
-gunicorn == 19.9.0
+streamlit
+ipython
+scikit-learn
+xgboost
+fastapi
+pydantic
+uvicorn
+gunicorn
 uvloop
 httptools
-
-
