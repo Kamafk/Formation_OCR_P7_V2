@@ -147,5 +147,3 @@ if btn_predict:
              """)
   
 ######################
-#How to run : streamlit run dash2.py
-######################
